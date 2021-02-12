@@ -17,3 +17,11 @@ h1, h2, h3 {
 .itText {
   font-style: italic;
 }
+
+.upperCaseText {
+  vertical-align: super;
+}
+
+.underLineText {
+  text-decoration: underline;
+}
