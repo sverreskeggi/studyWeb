@@ -1,9 +1,18 @@
+@font-face {
+  font-family: "Museo Cyrl 900";
+  src: url("../font/MuseoCyrl-900.woff") format("woff"),
+      url("../font/MuseoCyrl-900.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #202020;
 }
 
@@ -67,6 +76,7 @@ a {
 }
 
 .title {
+  font-family: "Museo Cyrl 900";
   font-size: 54px;
   font-weight: 700;
   margin-top: 0;
