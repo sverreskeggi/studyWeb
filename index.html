@@ -1,80 +1,72 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="img/preview.jpg" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>lesson#11</title>
-  <link 
-    href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-    rel="stylesheet"
-  >
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/normalize.css">
-</head>
+    <meta name="title" content="" />
+    <meta name="description" content="" />
+    <link rel="image_src" href="img/preview.jpg" />
 
-<body>
-  <!-- Header -->
-  <header class="header">
-    <div class="header-container">
-      <span class="logo">книжный</span>
-      <nav class="nav">
-        <a href="#" class="nav-link">Бестселлеры</a>
-        <a href="#" class="nav-link">Подборки</a>
-        <a href="#" class="nav-link">Авторы</a>
-        <a href="#" class="nav-link">Дайджест</a>
-        <a href="#" class="nav-link">Подписка</a>
-        <a href="#" class="nav-link">Выбор редакции</a>
-      </nav>
-      <a href="#" class="login">Личный кабинет</a>
-    </div>
-    <!-- /.header-container -->
-  </header>
-  <!-- /.header -->
-  <!-- Hero -->
-  <section class="hero">
-    <div class="hero-container">
-      <img class="hero-image" src="img/book-img.jpg" alt="Книга Путь Фрилансера">
-      <div class="hero-text">
-        <span class="author">Артем Исламов</span>
-        <h1 class="title">Путь Фрилансера</h1>
-        <span class="subtitle">Поколение людей, работающих в интернете</span>
-        <div class="info">
-          <span class="info-text date">Год выпуска: 2019</span>
-          <span class="info-text format">Формат издания: 145х2015</span>
-          <span class="info-text type">Тип обложки: мягкая</span>
-          <span class="info-text age">Возрастные ограничения: 12+</span>
-        </div>
-        <!-- info -->
-        <div class="price">
-          <span class="pricetag">490 ₽</span>
-          <a href="#" class="favorites">Добавить в изранное</a>
-        </div>
-        <!-- /.price -->
-        <div class="buttons">
-          <button class="button button-primary">Читать отрывок</button>
-          <a href="https://ridero.ru/books/put_frilansera/" class="button button-outline">Купить книгу</a>
-        </div>
-      </div>
-      <!-- hero-text -->
-    </div>
-    <!-- /.hero-container -->
-  </section>
-  <!-- /.hero -->
-  <!-- About -->
-  <section class="about">
-    <h2>О книге</h2>
-  </section>
-  <!-- /.about -->
-  <!-- Readers -->
-  <section class="readers">
-    <h2>Читатели</h2>
-  </section>
-  <!-- /.readers -->
-  <!-- Footer -->
-  <footer class="footer"></footer>
-  <!-- /.footer -->
-</body>
+    <!-- Open Sans font -->
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    >
+    
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Подбор шрифтов</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" href="img/favicon/favicon-16.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="img/favicon/favicon-32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="img/favicon/favicon-48.png" sizes="48x48" type="image/png">
+    <link rel="icon" href="img/favicon/favicon-62.png" sizes="62x62" type="image/png">
+    <link rel="icon" href="img/favicon/favicon-192.png" sizes="192x192" type="image/png">
 
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  	<link rel="stylesheet" href="css/style.css"/>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+    	<div class="container">
+  				<div class="text-box"><input type="search" class="form-control" autofocus placeholder="Введите свою фразу"></div>
+  				<div class="fonts">
+  					<p class="resault open-sans">Начните писать фразу</p>
+  					<small>Вот так выглядит шрифт <strong>Open Sans</strong></small>
+  					<hr>
+  					<p class="resault bebas-regular">Начните писать фразу</p>
+  					<small>Вот так выглядит шрифт <strong>BebasRegular</strong></small>
+  					<hr>
+  					<p class="resault bad-script">Начните писать фразу</p>
+  					<small>Вот так выглядит шрифт <strong>Bad Script</strong></small>
+  					<hr>
+            <p class="resault lobster">Начните писать фразу</p>
+            <small>Вот так выглядит шрифт <strong>Lobster</strong></small>
+            <hr>
+  				</div>
+          <div class="text-center">Внимание! Важно, чтобы шрифт работал и на кириллице!</div>
+    	</div>
+    </header>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script>
+    		$('input').keyup(function(){
+    			$('p.resault').text($('input').val())
+    		});
+    </script>
+  </body>
 </html>

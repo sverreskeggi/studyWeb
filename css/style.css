@@ -1,143 +1,57 @@
+/* Bad Script font */
 @font-face {
-  font-family: "Museo Cyrl 900";
-  src: url("../font/MuseoCyrl-900.woff") format("woff"),
-      url("../font/MuseoCyrl-900.woff2") format("woff2");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
+	font-family: 'Bad Script';
+	src: url('../font/BadScript-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
 }
 
-* {
-  box-sizing: border-box;
+/* Lobster font */
+@font-face {
+	font-family: 'Lobster';
+	src: url('../font/Lobster.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-  color: #202020;
+@font-face { 
+    font-family: 'BebasRegular';
+    src: url("../fonts/BebasRegular/BebasRegular.woff") format("woff");
+    font-style: normal;
+    font-weight: 400;
+	font-display: swap;
 }
 
-a {
-  text-decoration: none;
+.text-box{
+	padding-top: 2rem;
+}
+.result {
+	margin-bottom: 0;
+	margin-top: 3rem;
+}
+.fonts {
+	font-size: 2rem;
+	text-align: center;
+	padding: 2rem;
+}
+small {
+	font-size: 1.3rem;
 }
 
-.header {
-  background-color: #f1f1f1;
-  padding: 22px 0px;
+.open-sans {
+	font-family: 'Open Sans', sans-serif;
 }
 
-.header-container {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1140px;
-  margin: auto;
+.bebas-regular {
+	font-family: 'BebasRegular', sans-serif;
 }
 
-.logo {
-  text-transform: uppercase;
-  font-weight: 700;
+.bad-script {
+	font-family: 'Bad Script', sans-serif;
 }
 
-.nav-link {
-  color: #202020;
-  font-size: 14px;
-  font-weight: 400;
-  margin-left: 11px;
-  margin-right: 11px;
-}
-
-.login {
-  color: #202020;
-  font-size: 14px;
-  font-weight: 400;
-}
-
-/* HERO */
-.hero {
-  padding-top: 60px;
-  padding-bottom: 71px;
-}
-
-.hero-container {
-  display: flex;
-  max-width: 1140px;
-  margin: auto;
-  align-items: center;
-}
-
-.hero-image {
-  margin-right: 122px;
-}
-
-.author {
-  display: block;
-  font-size: 24px;
-  font-weight: 400;
-  margin-bottom: 22px;
-}
-
-.title {
-  font-family: "Museo Cyrl 900";
-  font-size: 54px;
-  font-weight: 700;
-  margin-top: 0;
-  margin-bottom: 15px;
-}
-
-.subtitle {
-  display: block;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 29px;
-  margin-bottom: 48px;
-}
-
-.info {
-  display: flex;
-  flex-wrap: wrap;
-  min-width: 500px;
-  margin-bottom: 49px;
-}
-
-.info-text {
-  flex-basis: 45%;
-  font-size: 16px;
-  font-weight: 400;
-  margin-bottom: 16px;
-}
-
-.price {
-  display: flex;
-  align-items: center;
-  margin-bottom: 48px;
-}
-
-.pricetag {
-  font-weight: 400;
-  font-size: 55px;
-  margin-right: 64px;
-}
-
-.favorites {
-  font-size: 16px;
-  font-weight: 400;
-  color: inherit;
-}
-
-.button {
-  border: 2px solid transparent;
-  font-size: 16px;
-  font-weight: 700;
-  padding: 22px 50px;
-  border-radius: 5px;
-}
-
-.button-primary {
-  background-color: #f89c02;
-  color: #ffffff;
-  margin-right: 20px;
-}
-
-.button-outline {
-  border: 2px solid #f89c02;
-  color: #f89c02;
+.lobster {
+	font-family: 'Lobster', sans-serif;
 }
