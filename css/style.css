@@ -114,13 +114,22 @@ a {
 .pricetag {
   font-weight: 400;
   font-size: 55px;
-  margin-right: 64px;
+  margin-right: 110px;
 }
 
 .favorites {
+  display:flex;
+  align-items:center;
   font-size: 16px;
   font-weight: 400;
   color: inherit;
+  text-align: center;
+}
+
+.heart-icon {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
 }
 
 .button {
@@ -206,4 +215,32 @@ a {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+}
+
+
+/* readers */
+.readers {
+  padding: 100px 0px;
+}
+
+.readers-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+  flex-wrap: wrap;
+  max-width: 1140px;
+  margin: auto;
+}
+
+.readers-container h2 {
+  flex-basis: 100%;
+  margin-bottom: 55px;
+}
+
+.readers-image {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
