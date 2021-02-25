@@ -18,9 +18,15 @@ body {
 
 a {
   text-decoration: none;
+  color: #202020;
 }
 
 .header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
   background-color: #f1f1f1;
   padding: 22px 0px;
 }
@@ -55,6 +61,7 @@ a {
 .hero {
   padding-top: 60px;
   padding-bottom: 71px;
+  margin-top: 60px;
 }
 
 .hero-container {
@@ -64,8 +71,20 @@ a {
   align-items: center;
 }
 
-.hero-image {
+.image-block {
+  position: relative;
   margin-right: 122px;
+}
+
+.sale-label {
+  position: absolute;
+  right: 0;
+  top: 23px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #c93535;
+  padding: 12px 17px;
 }
 
 .author {
@@ -251,4 +270,52 @@ a {
 
 .image-container img:nth-child(6n) {
   margin-right: 0px;
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 93px;
+  background-color: #f1f1f1;
+}
+
+.footer-container {
+  max-width: 1140px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  margin-top: 0;
+}
+
+.footer-list {
+  padding: 0;
+  list-style: none;
+}
+
+.list-item {
+  margin-bottom: 16px;
+}
+
+.requisities {
+  margin-right: 168px;
+}
+
+.information {
+  margin-right: 157px;
+}
+
+.to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  box-shadow: 0 1px 120px rgba(161, 161, 161, 0.08);
+  border-radius: 4px;
+  border: 1px solid #eeeeee;
+  background-color: #ffffff;
+  padding: 18px;
 }
