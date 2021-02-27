@@ -388,9 +388,14 @@ a {
   }
 
   .image-block {
-    min-width: 300px;
-    max-width: 300px;
+    min-width: 298px;
+    max-width: 298px;
+    height: 418px;
   }  
+
+  .button {
+    font-size: 14px;
+  }
 
   .author {
     font-size: 22px;
@@ -437,6 +442,12 @@ a {
     margin-bottom: 62px;
   }
 
+  .readers-image{
+    width: 165px;
+    height: 165px;
+    margin-right: 30px;
+  }
+
   .readers-image:nth-child(n+9) {
     display: none;
   }
@@ -475,8 +486,16 @@ a {
   }
 
   .image-block {
-    min-width: 100%;
+    min-width:560px;
+    height: 788px;
     margin-bottom: 60px;
+  }
+
+  .button {
+    max-width: 200px;
+    height: 48px;
+    font-size: 13px;
+    padding: 18px 40px;
   }
 
   .hero-image {
@@ -496,7 +515,7 @@ a {
   }
 
   .requisities {
-    margin-right: 40px;
+    margin-right: 63px;
     margin-bottom: 60px;
   } 
 
