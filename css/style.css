@@ -491,15 +491,34 @@ a {
     margin-bottom: 60px;
   }
 
+  .info-text {
+    flex-basis: 41%;
+    min-width: 100px;
+    font-size: 16px;
+  }
+
   .button {
-    max-width: 200px;
+    display: inline-block;
+    width: 200px;
     height: 48px;
     font-size: 13px;
-    padding: 18px 40px;
+    padding: 14px;
+  }
+
+  .button-outline {
+    text-align: center;
+  }
+
+  .pricetag {
+    margin-right: 70px;
   }
 
   .hero-image {
     width: 100%;
+  }
+
+  .about-author {
+    margin: 0;
   }
 
   .readers-image:nth-child(n+7) {
@@ -533,7 +552,14 @@ a {
   .about-container,
   .readers-container,
   .footer-container {
-    width: 95%;
+    max-width: 480px;
+    margin: auto;
+  }
+
+  .image-block {
+    width: 477px;
+    height: 671px;
+    min-width: 477px;
   }
 
   .author {
@@ -561,7 +587,7 @@ a {
   }
 
   .button {
-    width: 100%;
+    width: 481px;
     display: inline-block;
     text-align: center;
   }
@@ -586,6 +612,16 @@ a {
   .author-avatar {
     width: 64px;
     height: 64px;
+  }
+
+  .readers-image:nth-child(4) {
+    margin-right: 24px;
+  }
+
+  .readers-image { 
+    height: 144px;
+    width: 144px;
+    margin-right: 24px;
   }
 
   .requisities,
@@ -618,7 +654,29 @@ a {
   .about-container,
   .readers-container,
   .footer-container {
-    max-width: 90%;
+    min-width: 263px;
+    margin: auto;
+  }
+
+  .logo {
+    font-size: 14px;
+    margin-left: 29px;
+  }
+
+  .login {
+    margin-right: 29px;
+  }
+
+  .image-block {
+    max-width: 263px;
+    min-width: 263px;
+    height: 370px;
+    margin: auto;
+    margin-bottom: 43px;
+  }
+
+  .hero-text {
+    
   }
 
   .button {
