@@ -414,6 +414,7 @@ a {
 
   .info {
     margin-bottom: 39px;
+    min-width: 100%;
   }
 
   .info-text {
@@ -580,6 +581,7 @@ a {
   .info {
     flex-wrap: wrap;
     margin-bottom: 20px;
+    min-width: 100%;
   }
 
   .info-text {
@@ -654,7 +656,7 @@ a {
   .about-container,
   .readers-container,
   .footer-container {
-    min-width: 320px;
+    min-width: 290px;
     width: 90%;
     margin: auto;
   }
@@ -679,6 +681,7 @@ a {
   .hero-text {
     max-width: 320px;
     margin: auto;
+    padding: 0 15px;
   }
 
   .author {
@@ -710,6 +713,22 @@ a {
     margin-bottom: 15px;
   }
 
+  .about-book {
+    padding: 0 15px;
+  }
+
+  .about-author {
+    padding: 30px 20px;
+  }
+
+  .author-avatar {
+    margin-right: 13px;
+  }
+
+  .author-name {
+    max-width: 129px;
+  }
+
   .footer-title {
     font-size: 18px;
     font-weight: 700;
@@ -720,16 +739,18 @@ a {
   }
 
   .image-container {
-    padding: 0 30px;
+    justify-content: start;
+    max-width: 300px;
+    margin: auto;
   }
 
   .readers-image {
     height: 125px;
     width: 125px;
-    max-height: 125px;
-    max-width: 125px;
+    /* max-height: 125px;
+    max-width: 125px; */
     margin-bottom: 15px;
-    margin-right: 15px;
+    margin-right: 15px; 
   }
 
   .readers-image:nth-child(n+5) {
@@ -737,7 +758,7 @@ a {
   }
 
   .readers-image:nth-child(2) {
-    margin-right: 0px;
+    /* margin-right: 0px; */
   }
 
   .readers-image:nth-child(3) {
