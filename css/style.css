@@ -654,7 +654,8 @@ a {
   .about-container,
   .readers-container,
   .footer-container {
-    min-width: 263px;
+    min-width: 320px;
+    width: 90%;
     margin: auto;
   }
 
@@ -676,13 +677,32 @@ a {
   }
 
   .hero-text {
-    
+    max-width: 320px;
+    margin: auto;
+  }
+
+  .author {
+    font-size: 16px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .info-text {
+    font-size: 14px;
   }
 
   .button {
     width: 100%;
     display: inline-block;
     text-align: center;
+    min-width: 262px;
+    height: 60px;
   }
 
   .button-primary {
@@ -700,31 +720,28 @@ a {
   }
 
   .image-container {
-    justify-content: start;
+    padding: 0 30px;
   }
 
   .readers-image {
-    height: 140px;
-    width: 140px;
+    height: 125px;
+    width: 125px;
+    max-height: 125px;
+    max-width: 125px;
     margin-bottom: 15px;
+    margin-right: 15px;
   }
 
   .readers-image:nth-child(n+5) {
     display: none;
   }
 
-  .readers-image:nth-child(1) {
-    margin-right: 15px;
+  .readers-image:nth-child(2) {
+    margin-right: 0px;
   }
 
   .readers-image:nth-child(3) {
     margin-right: 15px;
-  }
-
-  .readers-image:nth-child(2n) {
-    margin-right: 0;
-  }
-
-  
+  }  
 }
 /* 320px - 507 */
