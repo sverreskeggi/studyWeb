@@ -425,6 +425,10 @@ a {
     margin-bottom: 39px;
   }
 
+  .pricetag {
+    margin-right: 64px;
+  }
+
   .button {
     padding: 20px 40px;
   }
@@ -436,6 +440,11 @@ a {
 
   .about-container {
     flex-wrap: wrap;
+    justify-content: start;
+  }
+
+  .about-author {
+    margin-left: 0px;
   }
 
   .about-book {
@@ -590,13 +599,19 @@ a {
 
   .button {
     width: 481px;
+    height: 77px;
     display: inline-block;
     text-align: center;
+    font-size: 16px;
   }
 
   .button-primary {
     margin-right: 0;
     margin-bottom: 20px;
+  }
+
+  .button-outline {
+    padding-top: 25px;
   }
 
   .about-book {
@@ -704,7 +719,7 @@ a {
     width: 100%;
     display: inline-block;
     text-align: center;
-    min-width: 262px;
+    width: 262px;
     height: 60px;
   }
 
@@ -713,20 +728,28 @@ a {
     margin-bottom: 15px;
   }
 
+  .button-outline {
+    padding-top: 18px;
+  }
+
+  .about-author {
+    padding: 30px 12px;
+  }
+
   .about-book {
     padding: 0 15px;
   }
 
-  .about-author {
-    padding: 30px 20px;
-  }
-
   .author-avatar {
-    margin-right: 13px;
+    margin-right: 9px;
   }
 
   .author-name {
     max-width: 129px;
+  }
+
+  .author-link {
+    font-size: 14px;
   }
 
   .footer-title {
